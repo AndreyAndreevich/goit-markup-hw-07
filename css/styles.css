@@ -640,7 +640,7 @@ button {
 }
 
 .subscribe {
-	margin-left: 93px;
+	margin-left: auto;
 }
 
 .subscribe-form {
@@ -711,7 +711,7 @@ button {
 	padding: 40px;
 
 	width: 528px;
-	min-height: 581px;
+	height: 581px;
 	background-color: var(--white-bg-cl);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 4px;
@@ -760,7 +760,7 @@ button {
 
 .register-form-field {
 	display: block;
-	margin-bottom: 28px;
+	margin-bottom: 10px;
 
 	position: relative;
 }
@@ -838,6 +838,11 @@ button {
 
 .register-form-link {
 	color: var(--button-cl);
+}
+
+.register-form-textarea{
+	display: block;
+	position: relative;
 }
 
 .register-form-message {
